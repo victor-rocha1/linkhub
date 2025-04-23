@@ -1,4 +1,5 @@
 import './App.css'
+import Link from './components/Link'
 import data from "./utils/data"
 
 function App() {
@@ -6,9 +7,15 @@ function App() {
   return (
     <main>
       <div>
-        <h1>{ data.title }</h1>
-        <h2>{ data.subtitle }</h2>
+        <h1>{data.title}</h1>
+        <h2>{data.subtitle}</h2>
       </div>
+
+      <>
+        {data.links.map((item) => (
+          <Link text={item.text} url={item.url} />
+        ))}
+      </>
     </main>
   )
 }
