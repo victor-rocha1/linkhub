@@ -16,6 +16,10 @@ function App() {
           <Link text={item.text} url={item.url} />
         ))}
       </>
+
+      <div className="description">
+        <p>{data.desciption}</p>
+      </div>
     </main>
   )
 }
