@@ -1,7 +1,5 @@
-export default function Link(props){
+export default function Link(props) {
     return (
-        <div className="links">
-            <a href={props.url}>{props.text}</a>
-        </div>
+        <a className="links" href={props.url}>{props.text}</a>
     )
 }
