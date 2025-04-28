@@ -1,6 +1,7 @@
 import './App.css'
 import Link from './components/Link'
 import data from "./utils/data"
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
 
@@ -14,7 +15,12 @@ function App() {
 
       <div className="links-list">
         {data.links.map((item) => (
-          <Link text={item.text} url={item.url} />
+          <Link
+            text={item.text}
+            url={item.url}
+            icon={item.icon}
+            image={item.image}
+          />
         ))}
       </div>
 
