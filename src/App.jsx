@@ -2,6 +2,8 @@ import './App.css'
 import Link from './components/Link'
 import data from "./utils/data"
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import banner from "../public/banner.jpeg"
+import avatar from "../public/avatar.jpg"
 
 function App() {
 
@@ -9,11 +11,11 @@ function App() {
     <main>
 
       <div className="banner">
-        <img src="../banner.jpeg" alt="" />
+        <img src={banner} alt="" />
       </div>
 
       <div className='about'>
-        <img src="../avatar.jpg" alt="avatar" className='avatar' />
+        <img src={avatar} className='avatar' />
         <h1>{data.title}</h1>
         <h2>{data.subtitle}</h2>
       </div>
