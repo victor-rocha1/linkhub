@@ -7,7 +7,7 @@ function App() {
 
   return (
     <main>
-      <div>
+      <div className='about'>
         <img src="../avatar.jpg" alt="avatar" />
         <h1>{data.title}</h1>
         <h2>{data.subtitle}</h2>
