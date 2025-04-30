@@ -1,20 +1,19 @@
 #root {
   font-family: "Inter", sans-serif;
-  padding: 2rem;
   text-align: center;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding: 2rem;
 }
 
 body {
   background-color: #111111;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*  Textos  */
 h1 {
   font-size: 1.5rem;
   color: #ffbd59;
@@ -25,35 +24,10 @@ h2 {
   color: #f5f5f5e1;
 }
 
-.description{
-  min-width: 350px;
-  max-width: 700px;
-}
-
 p {
   font-size: 1rem;
   color: #f5f5f5e1;
   padding-top: 50px;
-}
-
-.about img {
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-}
-
-.links a img{
-  height: 120px;
-  width: 120px;
-}
-
-.links-list {
-  max-width: 600px;
-  width: 100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 1rem;
 }
 
 a {
@@ -61,9 +35,55 @@ a {
   text-decoration: none;
 }
 
+/*  Banner  */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.banner img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*  About  */
+.about {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.about img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+/*  Descrição  */
+.description {
+  min-width: 350px;
+  max-width: 600px;
+}
+
+/*  Links  */
+.links-list {
+  max-width: 700px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
 .links {
   margin-top: 1rem;
-  padding: .5rem;
+  padding: 0.25rem;
   width: 100%;
   height: 32px;
   background-color: #2067C7;
@@ -71,9 +91,29 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  padding: .25rem;
   cursor: pointer;
   box-shadow: 4px 8px 5px 0px #2067c7a6;
   -webkit-box-shadow: 4px 6px 5px 0px #2068c5a6;
   -moz-box-shadow: 4px 8px 5px 0px #2067c7a6;
+}
+
+.links a img {
+  height: 120px;
+  width: 120px;
+}
+
+/*  Responsividade  */
+@media (max-width: 750px) {
+  .banner {
+    height: 150px;
+  }
+
+  .about {
+    margin-top: -70px;
+  }
+
+  .about img {
+    height: 150px;
+    width: 150px;
+  }
 }

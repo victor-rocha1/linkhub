@@ -7,8 +7,13 @@ function App() {
 
   return (
     <main>
+
+      <div className="banner">
+        <img src="../banner.jpeg" alt="" />
+      </div>
+
       <div className='about'>
-        <img src="../avatar.jpg" alt="avatar" />
+        <img src="../avatar.jpg" alt="avatar" className='avatar' />
         <h1>{data.title}</h1>
         <h2>{data.subtitle}</h2>
       </div>
