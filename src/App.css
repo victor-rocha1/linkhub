@@ -93,6 +93,7 @@ a {
   justify-content: center;
   border-radius: 5px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
   box-shadow: 4px 8px 5px 0px #2067c7a6;
   -webkit-box-shadow: 4px 6px 5px 0px #2068c5a6;
   -moz-box-shadow: 4px 8px 5px 0px #2067c7a6;
@@ -101,6 +102,10 @@ a {
 .links a img {
   height: 120px;
   width: 120px;
+}
+
+.links:hover {
+  transform: scale(1.07);
 }
 
 /*  Responsividade  */
