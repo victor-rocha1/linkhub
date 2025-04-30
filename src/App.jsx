@@ -9,7 +9,6 @@ function App() {
 
   return (
     <main>
-
       <div className="banner">
         <img src={banner} alt="" />
       </div>
