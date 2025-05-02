@@ -1,12 +1,69 @@
-# React + Vite
+# 🌐 LinkHub - Victor Rocha
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu LinkHub pessoal, desenvolvido com **React e Bootstrap Icons**. 
+Aqui você encontra todos os meus links principais — GitHub, LinkedIn, Portfólio, Instagram, entre outros — com um layout visual simples, moderno e responsivo.
 
-Currently, two official plugins are available:
+## 📸 Preview
+<img src="public/image.png" width="200"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Acesse o projeto online
 
-## Expanding the ESLint configuration
+👉 [https://victor-rocha1.github.io/linkhub/](https://victor-rocha1.github.io/linkhub/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## ✨ Funcionalidades
+
+- ✅ Imagem de banner responsiva cobrindo 100% da largura
+- ✅ Avatar com estilo circular centralizado
+- ✅ Lista de links personalizados com ícones
+- ✅ Design responsivo para dispositivos móveis
+- ✅ Interface limpa e objetiva
+
+
+## 🛠️ Tecnologias usadas
+
+- [React](https://reactjs.org)
+- [Vite](https://vitejs.dev/)
+- HTML5 e CSS3
+- Google Fonts
+- Bootstrap Icons (para ícones de redes sociais)
+
+
+## Estrutura de pastas (simplificada)
+```bash
+public/
+  └── logo-victor.png
+src/
+  ├── App.jsx
+  ├── main.jsx
+  └── assets/
+      ├── banner.jpeg
+      ├── avatar.jpg
+index.html
+style.css
+vite.config.js
+```
+
+
+## 🚀 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/victor-rocha1/linkhub.git
+
+# Acesse o diretório
+cd linkhub
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
+```
+
+## 📝 Licença
+Este projeto está sob a licença MIT.
+
+## Desenvolvido com 💙 por Victor Rocha
