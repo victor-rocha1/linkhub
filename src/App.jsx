@@ -31,7 +31,7 @@ function App() {
       </div>
 
       <div className="description">
-        <p>{data.desciption}</p>
+        <p>{data.description}</p>
       </div>
     </main>
   )
