@@ -3,7 +3,7 @@ import Link from './components/Link'
 import data from "./utils/data"
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import banner from "../public/banner.jpeg"
-import avatar from "../public/avatar.jpg"
+import avatar from "../public/avatar.png"
 
 function App() {
 
